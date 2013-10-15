@@ -1,0 +1,30 @@
+{
+  "name": "redis-cache",
+  "version": "0.1.0",
+  "description": "Simple redis cache client for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/redis-cache.git"
+  },
+  "keywords": [
+    "redis",
+    "cache"
+  ],
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/redis-cache/issues"
+  },
+  "dependencies": {
+    "redis": "~0.8.6",
+    "redisurl": "~0.1.1"
+  },
+  "devDependencies": {
+    "should": "~2.0.1",
+    "mocha": "~1.13.0"
+  }
+}
